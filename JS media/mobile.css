@@ -1,0 +1,121 @@
+.nav__brand{
+    width: 5rem;
+    height: 6rem;
+}
+.nav__stamp{
+    left: 45%;
+}
+.header-nav li{
+    margin: 0rem 0.5rem;
+}
+.header-nav li a{
+    font-size: 2rem;
+}
+/*-----------------------------*/
+main{
+    width: 100%;
+    order:0;
+}
+.main-presentation{
+    margin: 2rem 0rem;
+    margin-bottom: 1rem;
+}
+.main-presentation p{
+    font-size: 2rem;
+}
+.main-presentation img{
+    width: 90%;
+    height: 20rem;
+    margin: 2rem 5%;
+}
+.main__text{
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+/*-----------------------------*/
+aside{
+    width:100%;
+    order:1;
+}
+.aside__box{
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    margin: 1rem;
+}
+aside img{
+    width: 90%;
+    height: 18rem;
+    margin: 4rem 5%;
+}
+.aside__text{
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+/*-----------------------------*/
+.description{
+    width: 100%;
+}
+.description p{
+    font-size: 1.3rem;
+    margin:  1rem auto;
+}
+.footer-socialMedia{
+    width: 20rem;
+    height: 18rem;
+}
+.footer-brand {
+    width: 15rem;
+    height: 15rem;
+}
+/*--------------------------------*/
+@media (min-width:500px){
+    .nav__brand{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    .nav__stamp{
+        left: 47%;
+    }
+    .header-nav li{
+        margin: 0rem 2rem;
+    }
+    .header-nav li a{
+        font-size: 3rem;
+    }
+    .main-presentation p{
+        font-size: 2.5rem;
+    }
+    .main-presentation img{
+        width: 80%;
+        height: 20rem;
+        margin: 2rem 10%;
+    }
+    .main__text{
+        margin: 1.5rem;
+        font-size: 1.5rem;
+    }
+    .aside__box{
+        font-size: 1.8rem;
+        margin: 1.5rem;
+    }
+    aside img{
+        width: 80%;
+        margin: 4rem 10%;
+    }
+    .aside__text{
+        margin: 1.5rem;
+        font-size: 1.5rem;
+    }
+    .description p{
+        font-size: 1.5rem;
+        margin:  1rem auto;
+    }
+    .footer-socialMedia{
+        width: 28rem;
+        height: 20rem;
+    }
+    .footer-brand {
+        width: 20rem;
+        height: 20rem;
+    }
+}

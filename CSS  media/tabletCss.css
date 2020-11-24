@@ -1,0 +1,79 @@
+/*MAIN*/
+   /*main-introduction*/
+.main-introduction{
+    background-image: url(backgroundMobile.jpg);
+}
+.introduction-content{
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 0rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+.content-first, .content-second, .content-third{
+    background-color: peachpuff;
+    border-radius: 1.5rem;
+    width: 22%;
+    margin: 1.8rem auto;
+    padding: 1rem;
+}
+.introduction-content .content-first .question{
+    margin-top: 0rem;
+}
+.introduction-content .content-third .answer{
+    margin-bottom: 2.5rem;
+}
+.question{
+    font-size: 1.8rem;
+}
+.answer{
+    font-size: 1.6rem;
+}
+    /*main-center*/
+.main-center{
+    display: block;
+    width: 70%;
+    margin: 5rem auto;
+}
+        /*main-left*/
+.main-left{
+    display: inline-block;
+    width: 30%;
+    margin: 5rem;
+    margin-left: 15%;
+    margin-right: 4.7%;
+}
+        /*main-right*/
+.main-right{
+    display: inline-block;
+    width: 30%;
+    margin: 5rem;
+    margin-left: 4.7%;
+    margin-right: 15%;
+}
+.main-center, .main-left, .main-right{
+    font-size: 1.7rem;
+}
+@media (min-width:600px){
+    .header-nav{
+        margin-left: 5rem;
+    }
+    .header-nav li{
+        margin-right: 5rem;
+    } 
+    .header-logo{
+        margin-left: 4rem;
+    }
+}
+@media (min-width:700px){
+    .header-nav{
+        margin-left: 8rem;
+    }
+    .header-nav li{
+        margin-right: 7rem;
+    } 
+    .header-logo{
+        margin-left: 4rem;
+    }
+}

@@ -1,0 +1,49 @@
+.nav__brand{
+    width: 8.5rem;
+    height: 8.5rem;
+}
+.header-nav li{
+    margin: 0rem 3rem;
+}
+.header-nav li a{
+    font-size: 3.5rem;
+}
+/*-----------------------------------------------------*/
+main{
+    order: 1;
+    width: 56%;
+    margin: 1rem 2%;
+}
+.main-presentation{
+    margin: 3rem 0rem;
+}
+.main-presentation p{
+    font-size: 3rem;
+}
+.main-presentation img{
+    width: 90%;
+    height: 30rem;
+    margin: 4rem 5%;
+    margin-bottom: 0rem;
+}
+.main__text{
+    font-size: 1.8rem;
+}
+    /*----------------------------------------------------*/
+aside{
+    order: 0;
+    width: 29%;
+}
+.aside__box{
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+aside img{
+    width: 90%;
+    height: 24rem;
+    margin: 4rem 5%;
+}
+.aside__text{
+    font-size: 1.8rem;
+}
+    /*-----------------------------------------------------*/

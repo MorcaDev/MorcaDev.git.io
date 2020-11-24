@@ -1,0 +1,70 @@
+/*HEADER*/
+.header__brand img{
+    width: 14rem;
+    height: 14rem;
+    margin: 1rem;
+}
+header ul li{
+    margin: 0.5rem 2rem;
+}
+header ul li a{
+    font-size: 4rem;
+}
+/*MAIN*/
+    /*main-aboutMe*/
+.main-aboutMe{
+    order: 50;
+}
+    /*main-skills*/
+.main-skills{
+    width: 50%;
+    order: 60;
+}
+.main-skills p{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 2rem;
+}
+.main-skills .skill__generalTitle{
+    font-size: 3.5rem;
+}
+.main-skills .nameOfSkills{
+    font-size: 2.5rem;
+}
+    /*main-form*/
+.main-form{
+    background-color: rgba(82, 79, 79, 0.795);
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    padding: 2rem;
+    padding-bottom: 4rem;
+    order: 70;
+    border-radius: 2rem;
+}
+.main-form .form__title{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: bisque;
+}
+.main-form p{
+    color:rgba(255, 228, 196, 0.596);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+.main-form input{
+    background-color: whitesmoke;
+    margin-bottom: 0.5rem;
+}
+    /*main-example*/
+.main-example{
+    order: 80;
+}
+.main-example div p{
+    margin-top: 5rem;
+}
+    /*main-banner*/
+.main-banner{
+    order: 90;
+}
+/*FOOTER*/

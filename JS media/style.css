@@ -1,0 +1,213 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    max-width: 1250px;
+    margin: auto;
+}
+/*--------------------------------------------------------*/
+/*HEADER*/
+header{
+    background-color: rgba(105, 107, 219, 0.582);
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 2rem;
+}
+.nav__brand{
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+}
+.nav__stamp{
+    position: absolute;
+    left: 49%;
+    top: 85%;
+    width: 5rem;
+    height: 5rem;
+}
+.header-nav{
+    margin: auto;
+}
+.header-nav li{
+    display: inline-block;
+    margin: 0rem 4rem;
+}
+.header-nav li a{
+    color: black;
+    text-decoration: none;
+    font-size: 4rem;
+}
+.header-nav li a:hover{
+    color: white;
+}
+
+/*CONTENT*/
+.content{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: rgba(163, 165, 42, 0.63);
+}
+    /*MAIN*/
+main{
+    order: 1;
+    width: 56%;
+    margin: 1rem 2%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.main-presentation{
+    margin: 4rem 0rem;
+}
+.main-presentation p{
+    font-size: 3.2rem;
+    color: white;
+    text-align: center;
+}
+.main-presentation img{
+    width: 95%;
+    height: 65rem;
+    margin: 4rem 2.5%;
+    border-radius: 2rem;
+}
+.main__text{
+    font-size: 1.8rem;
+}
+    /*ASIDE*/
+aside{
+    order: 0;
+    width: 29%;
+    margin: 1rem 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.aside__box{
+    font-size: 2.2rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.267);
+    border-radius: 3.5rem;
+    padding: 2rem;
+    margin: 2rem 0rem;
+    box-shadow: 1rem 1rem 1.5rem rgba(163, 165, 42);
+}
+aside img{
+    width: 90%;
+    height: 30rem;
+    margin: 4rem 5%;
+}
+.aside__text{
+    font-size: 1.8rem;
+}
+    /*FOOTER*/
+footer{
+    background-color: rgba(3, 3, 3, 0.09);
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    order: 3;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+.description{
+    width: 50%;
+}
+.description p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin:  1rem 2rem;
+}
+.description hr{
+    margin: auto;
+    width: 15rem;
+}
+.description .firstParagraph{
+    margin-top: 5rem;
+}
+.description .lastParagraph{
+    margin-bottom: 5rem;
+}
+.footer-socialMedia{
+    margin: 0rem auto;
+    width: 40%;
+    height: 25rem;
+}
+.footer-brand {
+    margin: 5rem auto;
+    width: 25rem;
+    height: 25rem;
+}
+    /*MEDIA*/
+@media (min-width:1000px){
+    .header-nav li{
+        margin: 0rem 6rem;
+    }
+    .header-nav li a{
+        font-size: 5rem;
+    }
+    .nav__stamp{
+        left: 47%;
+        top: 80%;
+        width: 6rem;
+        height: 6rem;
+    }
+    main{
+        width: 53%;
+    }
+    .description{
+        width: 30%;
+        margin-left: 5%;
+    } 
+    .footer-socialMedia{
+        margin:0rem auto;
+        width: 15%;
+    }
+    .footer-brand {
+        margin: 0rem;
+        width: 25%;
+        margin-right: 5%;
+    }
+    .aside__box{
+        padding-bottom: 0rem;
+    }
+}
+@media (min-width:1100px){
+    main{
+        width: 56%;
+    }
+    aside{
+        width: 15%;
+    }
+    footer{
+        flex-flow: column wrap;
+        width: 15%;
+        margin: 0rem;
+    }
+    .description{
+        margin: auto;
+        width: 100%;
+    }
+    .description p{
+        font-size: 2rem;
+    }
+    .footer-socialMedia{
+        margin: auto;
+        width: 90%;
+    }
+    .footer-brand {
+        margin: auto;
+        width: 90%;
+        height: 25rem;
+    }
+    .main-presentation p{
+        font-size: 4rem;
+    }
+    .nav__brand{
+        margin-left: 6rem;
+    }
+}

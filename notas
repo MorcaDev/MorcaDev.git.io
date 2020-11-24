@@ -1,0 +1,180 @@
+goals for first day:
+a)  tools 
+b)  optimization tools
+c)  structure 
+d)  icon
+
+goals for thursday (en borrador):
+    new topics:
+1)  favICON
+2)  picture
+3)  video
+
+goals for friday:
+a)  build layout mobile 30%
+
+/*-----------------------------*/
+
+goals for monday:
+1)  build layout mobile 70%
+2)  build tablet layout 100%
+    review      :
+3)  Input-formularios-type-buttom 
+
+goals for tuesday:
+a)  Build desktop layout 100%
+b)  Union de todos los projects
+c)  Detalles finales 
+    learn:
+d)  Sent my website in Githubpages
+
+goals for wednesday:
+1)  Analisis del codigo
+2)  Optimización de código
+    new topics:
+3)  shadow 
+4)  background-image
+
+goals for thursday:
+a)  Review goals
+
+/*---------------------------*/
+
+extra day   :
+1)  vincular todos los projects
+
+
+
+
+
+
+
+<FAVICON>
+
+    >Icono de página
+    >Pequeña imagen in la ventana del browser que
+    representa al sitioweb
+    >Medida promedio 32x32 px 
+    >Utilidades:
+    -friendly expierence
+    >Is a short form "favorite icon"
+    - Con InternetExplorer 6.0, se establecieron por primera vez 
+    los iconos en las pestañas del navegador, iconos que solo 
+    eran ocupados/mostrados cuando una pagina web se establecia 
+    como favorito de un usuario.Cambia con la version 7.0
+
+>how can i use it?
+original:
+    -imagen.ico
+    -se colocaba dentro del directorio 
+    -el browser lo añadia automaticamente cuándo 
+    este era summado a los favoritos
+
+Moderna:
+    -usas otros formatos imagen.ext 
+    -siempre visible
+    -Vinculado desde una etiqueta LINK en el HEAD
+    
+    imagen.JPG/JPEG/PNG/GIF/ICO
+    <link rel="icon" href="name.ext" 
+    type="image/---" />
+
+    Dependiendo del formato, el atributo “type” cambiaran:
+
+    Formato .ico: image/x-icon
+    Formato .png: image/png
+    Formato .gif: image/gif
+    Formato .jpeg (extensión jpg o jpeg): image/jpeg
+
+    imagen.ICO
+    <link rel="shortcut icon" 
+    href="path.ico" />
+        *shortcut es buena práctica
+
+/*-----------------------------------------------*/
+
+<VIDEO>
+Etiqueta que permite mostrar videos en una página web
+
+>   <video src="name.ext" controls preload="auto"></video>
+    etiqueta video con los atributos necesarios para repoducir un video 
+
+    src="-------.ext"   referencia al video dentro del directorio
+    controls            genera botones de control para su reproducción (paly,pause,mute,sound,volume,size..)
+    *pre load="auto" no es necesario pero permite optimización de descarga
+
+>   <video controls preload="auto">
+        <source src="name.exta"/>
+        <source src="name.extb"/>
+        .
+        .
+    </video>
+
+    -con <source> anidado en <video> puedes referenciar videos iguales con diferentes .ext
+    -No todos lo browsers admiten los mismos name.ext
+    -Busca de arribahacia abajo.
+    el browser entiende un video y deja de lado el resto, de no ser así busca hasta encontrar
+    uno que pueda admitir (si no solo carga la cuadrícula)
+    *los atributos van el la etiqueta video
+
+>   Otros atributos
+
+    >preload="auto/none/metadata"    
+    indica cómo iniciar la descarga del video para ser visto en la página
+    *buena práctica 
+        "auto" : llama a descargar el video desde que se llama a la página
+
+    >poster="image.ext"
+    referencia a una imagen para que se use cómo poster hasta que el video
+    inicie su reproducción
+
+    >autoplay 
+    indica que se reproduzca el video de forma automática 
+    no compatible con todos los browsers ni dispositvos
+    *es una mala práctica
+
+    >loop
+    indica que eal temrinar el video debe iniciar un bucle 
+    
+    >muted
+    permite que el video inicie con el audio ya cancelado
+    *con controles se cambia 
+    *en caso de un loop solo funciona en la 1ra reproducción
+
+    >width y height
+    indican ancho y alto
+    desde html por default en px
+    *tambien admite % y vw/h
+    *mala práctica, lo correcto es desde .css
+
+> Trucos 
+    src="name.ext #t=a,b"
+    indica tiempo donde inicio del video en seg (a) y de termino en seg (b)
+    con controls se modifica
+
+/*-----------------------------------------------*/
+
+<picture>
+etiqueta que optimiza la carga de recursos (imagenes) y ofrece
+flexibilidad 
+
+>   <picture>
+        <source media="(min-width:#px)" srcest="name.ext"/>
+        <source media="(min-width:#px)" srcest="name.ext"/>
+        .
+        .
+        <img src="name.ext" alt="accesibilidad" title="description"/>
+    </picture>
+
+    -<source> anidado en <picture> referencia las imagenes (diferentes entre si, dif ext
+    dif tamaño...) 
+    -El browser determina cual usar según el (min-width:#px) , descarga y utiliza
+    -parten de un orde de +px a -px
+    *de no tener "media" el 1er <source> daría la 1ra imagen sin necesitar el resto 
+    *cuándo aplica un estilo a <img> en <picture>, stos se aplican
+    sobre el resto de <source>
+
+/*------------------------------------------------*/
+
+Git-hub Pages
+sirve para subir a la web unicamente archivs front-end (.html/css/js)

@@ -1,0 +1,103 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*HEADER*/
+
+    /*header-logo*/
+.header-logo{
+    margin-top:1rem ;
+    margin-bottom: 1rem;
+}
+.header-logo img{
+    width: 8rem;
+    height: 8rem;
+}
+    /*header-nav*/
+.header-nav{
+    margin-left: 1rem;
+}
+.header-nav li{
+    margin-right: 9rem;
+} 
+.header-nav li a{
+    font-size: 4rem;
+}
+.header-nav li a:hover{
+    color: white
+}
+.header-nav .nav__specialItem:hover{
+    color: blue;
+}
+    /*header-selloMenu*/
+.header-selloMenu{
+    left: 48%;
+    top: 70%;
+}
+.header-selloMenu img{
+    width: 6.5rem;
+    height: 6rem;
+}
+
+
+/*MAIN*/
+
+    /*main-introduction*/
+.main-introduction{
+    background-image: url(backgroundTablet.jpg);
+}
+.content-first, .content-second, .content-third{
+    width: 18%;
+    margin: 4rem auto;
+    padding: 1.5rem;
+}
+.question{
+    font-size: 2.3rem;
+}
+.answer{
+    font-size: 1.5rem;
+}
+    /*main-center*/
+.main-center{
+    font-size: 1.9rem;
+    margin: 6rem auto;
+    margin-left:10%;
+    margin-right: 2%;
+    display: inline-block;
+    width: 25%;
+}
+    /*main-drop*/
+.main-left{
+    font-size: 1.9rem;
+    margin: 6rem auto;
+    width: 25%;
+}
+.main-right{
+    font-size: 1.9rem;
+    margin: 6rem auto;
+    width: 25%;
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+/*FOOTER*/
+.footer-description{
+    display: inline-block;
+    width: 30%;
+    margin: 5rem 5%;
+}
+.footer-icons{
+    display: inline-block;
+    width: 20%;
+    margin: 5rem 5%;
+}
+.footer-logo{
+    display: inline-block;
+    margin: 5rem 5%;
+}
+
+
+
+
+

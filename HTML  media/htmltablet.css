@@ -1,0 +1,26 @@
+header img{
+    width: 10rem;
+    height: 10rem;
+    margin: 0.5rem  14.65rem;
+}
+header ul li{
+    font-size: 4rem;
+}
+.main-banner p{
+    text-align: center;
+    font-family: serif;
+    font-size: 3rem;
+}
+.main-lesson0 p{
+    font-size: 2rem;
+    margin: 2.5rem;
+}
+.main-lessonA p{
+    font-size: 2rem;
+}
+.main-lessonB p{
+    font-size: 2rem;
+}
+.main-lessonC p{
+    font-size: 2rem;
+}
